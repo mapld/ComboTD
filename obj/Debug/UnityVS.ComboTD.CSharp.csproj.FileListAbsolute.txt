@@ -1,0 +1,17 @@
+C:\Users\Alex.Skynet\Documents\ComboTD\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+C:\Users\Alex.Skynet\Documents\ComboTD\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+C:\Users\Alex.Skynet\Documents\ComboTD\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\Alex.Skynet\Documents\ComboTD\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+C:\Users\Alex.Skynet\Documents\ComboTD\Temp\UnityVS_bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Alex.Skynet\Documents\ComboTD\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\Alex.Skynet\Documents\ComboTD\Temp\UnityVS_bin\Debug\UnityEngine.Networking.dll
+C:\Users\Alex.Skynet\Documents\ComboTD\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+C:\Users\Alex.Skynet\Documents\ComboTD\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\Alex.Skynet\Documents\ComboTD\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Users\Alex.Skynet\Documents\ComboTD\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+C:\Users\Alex.Skynet\Documents\ComboTD\Temp\UnityVS_bin\Debug\UnityEngine.Networking.xml
+C:\Users\Alex.Skynet\Documents\ComboTD\Temp\UnityVS_bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Alex.Skynet\Documents\ComboTD\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
+C:\Users\Alex.Skynet\Documents\ComboTD\obj\Debug\UnityVS.ComboTD.CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Alex.Skynet\Documents\ComboTD\obj\Debug\Assembly-CSharp.dll
+C:\Users\Alex.Skynet\Documents\ComboTD\obj\Debug\Assembly-CSharp.pdb
