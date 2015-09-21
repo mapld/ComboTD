@@ -12,6 +12,23 @@ public class EnemyScript : MonoBehaviour {
 
     EnemyHolder enemyHolder;
 
+    public int health;
+
+    public void Hit(int damage)
+    {
+        health -= damage;
+        if(health <= 0)
+        {
+            SelfDestruct();
+        }
+    }
+
+    public void SelfDestruct()
+    {
+        enemyHolder.Remove(this.gameObject);
+        Destroy(this.gameObject);
+    }
+
 	// Use this for initialization
 	void Start () {
 	    if(path != null)

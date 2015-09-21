@@ -17,6 +17,11 @@ public class EnemyHolder : MonoBehaviour {
         
     }
 
+    public void Remove(GameObject enemy)
+    {
+        enemies.Remove(enemy);
+    }
+
     public GameObject getTarget(TowerScript towerScript)
     {
         GameObject tower = towerScript.gameObject;

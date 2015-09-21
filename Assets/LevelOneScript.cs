@@ -42,9 +42,11 @@ public class LevelOneScript : LevelScript {
         StartSpawner();
         
         spawner.PlaceTower(6, 4);
+        spawner.PlaceTower(8, 4);
 
-        spawner.Spawn(0);
-
+        spawner.AddWave(0, 5);
+        spawner.AddWave(0, 5);
+        spawner.AddWave(0, 7);
         
     }
 

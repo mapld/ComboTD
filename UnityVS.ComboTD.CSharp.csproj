@@ -68,6 +68,7 @@
     <Compile Include="Assets\GridScript.cs" />
     <Compile Include="Assets\LevelOneScript.cs" />
     <Compile Include="Assets\LevelScript.cs" />
+    <Compile Include="Assets\ProjectileScript.cs" />
     <Compile Include="Assets\SpawnerScript.cs" />
     <Compile Include="Assets\TowerScript.cs" />
     <Compile Include="Assets\todo.cs" />

@@ -9,6 +9,11 @@ public class TowerScript : MonoBehaviour {
 
     EnemyHolder enemyHolder;
 
+    public float fireInterval = 0.5f;
+    float fireTimer = 0.0f;
+
+    public float ammoSpeed = 2;
+
 	// Use this for initialization
 	void Start () {
         enemyHolder = GameObject.FindObjectOfType<EnemyHolder>();
@@ -19,7 +24,18 @@ public class TowerScript : MonoBehaviour {
         GameObject target = enemyHolder.getTarget(this.GetComponent<TowerScript>());
         if(target)
         {
-            Debug.Log("Shoot");
+            if(fireTimer > fireInterval)
+            {
+                GameObject bullet = (GameObject)Instantiate(ammo, transform.position, Quaternion.identity);
+                bullet.GetComponent<ProjectileScript>().speed = ammoSpeed;
+                bullet.GetComponent<ProjectileScript>().target = target;
+                fireTimer = 0;
+            }
+            else
+            {
+                fireTimer += Time.deltaTime;
+            }
+            
         }
 	}
 
